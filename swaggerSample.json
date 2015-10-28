@@ -34,7 +34,7 @@
 					,"description":"Visit detail for the visit to be created."
 					,"required":true
 					,"schema":{"$ref":"#/definitions/VisitData"}
-					,"example":{"application/json":{"visitId":12345,"referenceId":0,"caseNumber":"A12345678","visitType":null,"visitDate":"10/28/2015","clientDisplayName":"Mark Larter","primaryPhone":null,"programStage":null,"nextOfficeVisit":null,"nextCourtHearing":null,"visitAddress":null,"visitOutcome":null,"residenceDetails":null,"clientVehicle":null}}}
+					,"examples":{"application/json":{"visitId":12345,"referenceId":0,"caseNumber":"A12345678","visitType":null,"visitDate":"10/28/2015","clientDisplayName":"Mark Larter","primaryPhone":null,"programStage":null,"nextOfficeVisit":null,"nextCourtHearing":null,"visitAddress":null,"visitOutcome":null,"residenceDetails":null,"clientVehicle":null}}}
 				]
 				,"responses":{"200":{"description":"OK","schema":{"format":"int64","type":"integer"}},"400":{"description":"BadRequest","schema":{"$ref":"#/definitions/ResponseBase"}}}
 				,"deprecated":false}
